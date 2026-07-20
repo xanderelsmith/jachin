@@ -482,14 +482,41 @@ p {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 2rem;
+  }
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+  }
+  .hero-subtitle {
+    font-size: 1.05rem !important;
+    margin-bottom: 2rem;
+  }
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .hero-actions .btn {
+    width: 100%;
+  }
+  .divider {
+    width: 100% !important;
+    height: 1px !important;
+    margin: 1rem 0 !important;
   }
   .section {
     padding: 4rem 5%;
   }
   .nav-links {
     display: none;
+  }
+  .whatsapp-float {
+    bottom: 15px;
+    right: 15px;
   }
 }
 
